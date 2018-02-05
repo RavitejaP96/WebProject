@@ -50,7 +50,7 @@ public class FlightsPageInfo {
 	WebElement searchButton;
 
 	WebDriverWait wait;
-	
+
 	/*
 	 * Using the constructor initializing the driver object with init elements
 	 */
@@ -64,6 +64,7 @@ public class FlightsPageInfo {
 		flightsButton.click();
 		flightsOnlyButton.click();
 		roundTripButton.click();
+		System.out.println("Clicked on Flights,FlightsOnly,Roundtrip buttons");
 	}
 
 	/* Passing values in to text field and selecting the given option */
@@ -103,7 +104,6 @@ public class FlightsPageInfo {
 		date = calendar.getTime();
 		String returnigDate = format.format(date);
 		System.out.println(returnigDate);
-		
 		returningTextField.sendKeys(returnigDate);
 
 	}
@@ -111,6 +111,7 @@ public class FlightsPageInfo {
 	/* Clicking on search button */
 	public void clickSearchButton() {
 		searchButton.click();
+		System.out.println("clicked on search");
 	}
 
 	/* Creating method to access all the initialized elements */
@@ -122,4 +123,3 @@ public class FlightsPageInfo {
 	}
 
 }
-

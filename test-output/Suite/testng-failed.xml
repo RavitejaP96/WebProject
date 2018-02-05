@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="com.orbitz.utility.Listeners"/>
+  </listeners>
+  <test name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.orbitz.testscripts.lib.TestCase_101">
         <methods>
-          <include name="open"/>
           <include name="flightBookingExecution"/>
+          <include name="tearDown"/>
+          <include name="StartUp"/>
+          <include name="StartUp"/>
         </methods>
       </class> <!-- com.orbitz.testscripts.lib.TestCase_101 -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

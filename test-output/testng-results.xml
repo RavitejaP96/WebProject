@@ -1,25 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="29623" started-at="2018-02-05T06:28:19Z" finished-at="2018-02-05T06:28:49Z">
+  <suite name="Suite" duration-ms="72056" started-at="2018-02-05T08:44:04Z" finished-at="2018-02-05T08:45:16Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="29623" started-at="2018-02-05T06:28:19Z" finished-at="2018-02-05T06:28:49Z">
+    <test name="ChromeTest" duration-ms="40942" started-at="2018-02-05T08:44:04Z" finished-at="2018-02-05T08:44:45Z">
       <class name="com.orbitz.testscripts.lib.TestCase_101">
-        <test-method status="PASS" signature="open()[pri:0, instance:com.orbitz.testscripts.lib.TestCase_101@20e2cbe0]" name="open" is-config="true" duration-ms="11995" started-at="2018-02-05T11:58:19Z" finished-at="2018-02-05T11:58:31Z">
+        <test-method status="PASS" signature="StartUp(java.lang.String)[pri:0, instance:com.orbitz.testscripts.lib.TestCase_101@457e2f02]" name="StartUp" is-config="true" duration-ms="21442" started-at="2018-02-05T14:14:04Z" finished-at="2018-02-05T14:14:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- open -->
-        <test-method status="PASS" signature="flightBookingExecution()[pri:0, instance:com.orbitz.testscripts.lib.TestCase_101@20e2cbe0]" name="flightBookingExecution" duration-ms="16416" started-at="2018-02-05T11:58:31Z" finished-at="2018-02-05T11:58:48Z">
+        </test-method> <!-- StartUp -->
+        <test-method status="PASS" signature="flightBookingExecution()[pri:0, instance:com.orbitz.testscripts.lib.TestCase_101@457e2f02]" name="flightBookingExecution" duration-ms="17036" started-at="2018-02-05T14:14:25Z" finished-at="2018-02-05T14:14:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flightBookingExecution -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orbitz.testscripts.lib.TestCase_101@20e2cbe0]" name="tearDown" is-config="true" duration-ms="1195" started-at="2018-02-05T11:58:48Z" finished-at="2018-02-05T11:58:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orbitz.testscripts.lib.TestCase_101@457e2f02]" name="tearDown" is-config="true" duration-ms="2446" started-at="2018-02-05T14:14:42Z" finished-at="2018-02-05T14:14:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orbitz.testscripts.lib.TestCase_101 -->
-    </test> <!-- Test -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="31063" started-at="2018-02-05T08:44:45Z" finished-at="2018-02-05T08:45:16Z">
+      <class name="com.orbitz.testscripts.lib.TestCase_101">
+        <test-method status="PASS" signature="StartUp(java.lang.String)[pri:0, instance:com.orbitz.testscripts.lib.TestCase_101@29774679]" name="StartUp" is-config="true" duration-ms="12602" started-at="2018-02-05T14:14:45Z" finished-at="2018-02-05T14:14:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartUp -->
+        <test-method status="PASS" signature="flightBookingExecution()[pri:0, instance:com.orbitz.testscripts.lib.TestCase_101@29774679]" name="flightBookingExecution" duration-ms="17291" started-at="2018-02-05T14:14:57Z" finished-at="2018-02-05T14:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightBookingExecution -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orbitz.testscripts.lib.TestCase_101@29774679]" name="tearDown" is-config="true" duration-ms="1165" started-at="2018-02-05T14:15:15Z" finished-at="2018-02-05T14:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orbitz.testscripts.lib.TestCase_101 -->
+    </test> <!-- FirefoxTest -->
   </suite> <!-- Suite -->
 </testng-results>
