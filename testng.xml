@@ -4,7 +4,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.orbitz.testscripts.lib.TestCase_101"/>
-      <class name="com.orbitz.utility.Base"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
