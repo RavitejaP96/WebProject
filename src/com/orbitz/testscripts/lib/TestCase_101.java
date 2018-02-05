@@ -5,7 +5,7 @@ import com.orbitz.pages.lib.FlightsPageInfo;
 import com.orbitz.utility.Base;
 
 public class TestCase_101 extends Base {
-
+	
 	FlightsPageInfo flights;
 	
 	@Test
