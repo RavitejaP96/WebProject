@@ -1,6 +1,7 @@
 package com.orbitz.pages.lib;
 
 import java.text.SimpleDateFormat;
+
 import java.util.Calendar;
 import java.util.Date;
 
@@ -13,7 +14,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.orbitz.utility.Base;
+//import com.orbitz.utility.Base;
 
 /**
  * .. FlightsPage class maintains all the objects and actions information
